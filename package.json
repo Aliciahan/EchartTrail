@@ -1,0 +1,22 @@
+{
+  "name": "echarttrail",
+  "version": "1.0.0",
+  "description": "ECharts, a pure Javascript chart library, can run smoothly on PC and mobile devices.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliciahan/EchartTrail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliciahan/EchartTrail/issues"
+  },
+  "homepage": "https://github.com/Aliciahan/EchartTrail#readme",
+  "dependencies": {
+    "echarts": "^3.4.0"
+  }
+}
