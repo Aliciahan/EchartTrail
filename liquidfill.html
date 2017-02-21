@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echart-liquidfill plug-in</title>
+    <script src="./node_modules/echarts-liquidfill/dist/echarts.js"></script>
+    <script src="./node_modules/echarts-liquidfill/dist/echarts-liquidfill.js"></script>
+</head>
+<body>
+
+<div id="liquidfill-chart" style="width:70%; height:400px"></div>
+<script>
+    var chart = echarts.init(document.getElementById('liquidfill-chart'));
+    var option = {
+        title:{
+          text:'Liquid Fill Graphe'
+        },
+        series:[{
+            type:'liquidFill',
+            data:[0.6]
+        }]
+    };
+
+    chart.setOption(option);
+</script>
+
+</body>
+</html>

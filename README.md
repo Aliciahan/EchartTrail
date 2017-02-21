@@ -83,3 +83,8 @@ option = {
     ]
 };
 ~~~
+
+## Liquid Fill Chart Plug-in
+
+https://github.com/ecomfe/echarts-liquidfill
+
